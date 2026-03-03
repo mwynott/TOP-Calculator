@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #be8af8;
+}
+
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+    grid-template-rows: auto repeat (5, 60px);
+    gap: 8px;
+    background: #cfcece;
+    padding: 10px;
+    border: #000000;
+    border-radius: 8px;
+}
+
