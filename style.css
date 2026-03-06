@@ -12,7 +12,7 @@ body {
     background: #be8af8;
 }
 
-.calculator {
+#calculator {
     display: grid;
     grid-template-columns: repeat(4, 60px);
     grid-template-rows: auto repeat (5, 60px);
@@ -23,7 +23,7 @@ body {
     border-radius: 8px;
 }
 
-.display {
+#display {
     grid-column: 1 / -1;
     background: #FFFFFF;
     border-radius: 8px;
